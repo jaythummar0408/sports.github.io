@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #eeeeee;
+}
+.container-fluid{
+    width: 100vw;
+    height: auto;
+    background-color: #eeeeee;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    /* background-color: #ffffff !important; */
+    padding: 10 70px !important;
+
+
+}
+
+.navbar-brand{
+    font-size: 28px !important;  
+    color: #f6c90e !important; 
+}
+
+.nav-link{
+    color: #000 !important;
+    margin-right: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.nav-link:hover{
+    background-color: #000  ;
+    color: #f6c90e !important;
+    transition: 0.4s ease all;
+}
+
+/* -----------------Navbar End----------------- */
+
+.container1{
+    width: 100%;
+    height: 90vh;
+    background: url('../image/inner_page_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%,;
+    color: #eeeeee;
+        
+}
+.cont1{
+    text-align: center;
+    position: relative;
+    top:366px;
+}
+.cont1 h1{
+    font-size: 75px !important;
+}
+.cont1 p{
+    font-size: 20px;
+}
+.span-1{
+    color: #f6c90e;
+}
+/* --------------------SERVICES-START---------------- */
+.container h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.container p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.card-img-top{
+    width: 200px !important;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #f6c90e;
+
+}
+.card:hover .card-img-top{
+    width: 220px !important ;
+    height: auto;
+    transition: 0.4s ease all;
+
+}
+.card{
+    width: 300px !important;
+    border: 1px solid #f6c90e !important;
+    margin: auto;
+    height: 500px !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    outline: none !important;
+}
+.card:hover{
+    background-color: rgba(80, 78, 78, 0.178) !important;
+}
+.card-title{
+    font-weight:bold !important;
+    text-transform: uppercase;
+}
+.fa-3x{
+    color: #f6c90e;
+}
+.sevice-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .linked:hover .sevice-pic{
+      transform: rotate(360deg);
+      transition: 0.9s ease all;
+  }
+  .linked{
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+  }
+  
+  /* ----------PRODUCT SECTION START------------ */
+  .card1{
+      width: 300px;
+      height: 400px;
+      border: 1px solid black;
+      margin: auto;
+      text-align: center;
+      margin-top:20px;
+      background-color: #eeeeee;
+      border: none;
+  }
+  .card1:hover{
+    box-shadow: -1px -1px 49px -12px #dbb005 !important;
+    -webkit-box-shadow: -1px -1px 49px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 49px -12px rgba(0,0,0,0.75);
+    width: 320px;
+   
+    transition: 0.5s ease all;
+  }
+  .price{
+      margin-top: 0;
+      border: 1px solid black;
+      background-color: transparent !important;
+  }
+  .back{
+      width: 100vw;
+      margin: auto;
+      height: 52vh;
+      background:linear-gradient(rgba(12, 12, 9, 0.507),rgba(18, 19, 19, 0.596)), url('../image/random1.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      border-radius: 20px;
+  }
+  .m-auto{
+      border-radius: 50%;;
+      box-shadow: -1px -1px 49px -12px #080808 !important;
+    -webkit-box-shadow: -1px -1px 49px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 49px -12px rgba(0,0,0,0.75);
+
+  }
+  .next{
+      color: #fff;
+  }
+
+  /* ---------------------COntact Us Start----------- */
+.contact{
+    background-image: url('../image/bg-2.jpg');
+    width:90vw !important;
+}
+
+.text1 p{
+    float: left;
+}
+.text2{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------Media-Query---------------- */
+
+@media screen and (max-width:980px){
+    .container1{
+        background-size: cover;
+        background-position: center;
+    }
+    .cont1{
+        text-align: center;
+        position: relative;
+        top:280px;
+    }
+    .cont1 h1{
+        font-size: 45px !important;
+    }
+}
+@media screen and (max-width:435px){
+    .cont1{
+        text-align: center;
+        position: relative;
+        top:180px;
+    }
+    .cont1 h1{
+        font-size: 40px !important;
+    }
+}
